@@ -54,4 +54,28 @@ header .container-fluid nav .button-effect .effect.effect-5:hover {
 header .container-fluid nav .button-effect .effect.effect-5:hover:before {
   transform: scale(1, 1);
   text-indent: 0;
+}
+
+section .container-fluid {
+  margin-top: 1rem;
+  position: relative;
+}
+section .container-fluid .col {
+  position: relative;
+}
+section .container-fluid img {
+  opacity: 0.8;
+}
+section .container-fluid .bg-img-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  padding: 0.5rem;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  letter-spacing: 20px;
 }/*# sourceMappingURL=styles.css.map */
