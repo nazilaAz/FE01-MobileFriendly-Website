@@ -1,19 +1,22 @@
-header .container-fluid {
+body {
+  position: relative;
+}
+body header .container-fluid {
   margin-top: 2%;
   box-shadow: 1px 2px 1px #38598b;
 }
-header .container-fluid nav h2.headerfont {
+body header .container-fluid nav h2.headerfont {
   font-family: "Dancing Script", cursive;
 }
-header .container-fluid nav p {
+body header .container-fluid nav p {
   text-transform: uppercase;
   margin-top: 1rem;
 }
-header .container-fluid nav p a {
+body header .container-fluid nav p a {
   font-family: "Oswald", sans-serif;
   font-size: 90%;
 }
-header .container-fluid nav .button-effect .effect {
+body header .container-fluid nav .button-effect .effect {
   text-align: center;
   display: inline-block;
   position: relative;
@@ -28,10 +31,10 @@ header .container-fluid nav .button-effect .effect {
   border-radius: 0.7rem;
   overflow: hidden;
 }
-header .container-fluid nav .button-effect .effect.effect-5 {
+body header .container-fluid nav .button-effect .effect.effect-5 {
   transition: all 0.2s linear 0s;
 }
-header .container-fluid nav .button-effect .effect.effect-5:before {
+body header .container-fluid nav .button-effect .effect.effect-5:before {
   content: "\f054";
   font-family: FontAwesome;
   display: flex;
@@ -48,25 +51,24 @@ header .container-fluid nav .button-effect .effect.effect-5:before {
   transform-origin: left center;
   transition: all 0.2s linear 0s;
 }
-header .container-fluid nav .button-effect .effect.effect-5:hover {
+body header .container-fluid nav .button-effect .effect.effect-5:hover {
   text-indent: 30px;
 }
-header .container-fluid nav .button-effect .effect.effect-5:hover:before {
+body header .container-fluid nav .button-effect .effect.effect-5:hover:before {
   transform: scale(1, 1);
   text-indent: 0;
 }
-
-section .container-fluid {
+body section .container-fluid {
   margin-top: 1rem;
   position: relative;
 }
-section .container-fluid .col {
+body section .container-fluid .col {
   position: relative;
 }
-section .container-fluid img {
+body section .container-fluid img {
   opacity: 0.8;
 }
-section .container-fluid .bg-img-title {
+body section .container-fluid .bg-img-title {
   text-transform: uppercase;
   font-weight: 600;
   writing-mode: vertical-rl;
@@ -77,5 +79,12 @@ section .container-fluid .bg-img-title {
   padding: 0.5rem;
   font-family: "Oswald", sans-serif;
   color: black;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
+}
+body footer {
+  position: relative;
+  bottom: 0;
+  background-color: #eeeeee;
+  margin-top: 1rem;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
