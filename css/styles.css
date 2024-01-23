@@ -65,9 +65,6 @@ body section .container-fluid {
 body section .container-fluid .col {
   position: relative;
 }
-body section .container-fluid img {
-  opacity: 0.8;
-}
 body section .container-fluid .bg-img-title {
   text-transform: uppercase;
   font-weight: 600;
@@ -87,4 +84,13 @@ body footer {
   background-color: #eeeeee;
   margin-top: 1rem;
   height: auto;
+}
+body footer .footerh4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+body footer .footerleft p {
+  font-size: 0.7rem;
 }/*# sourceMappingURL=styles.css.map */

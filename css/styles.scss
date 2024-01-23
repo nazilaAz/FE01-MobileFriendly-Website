@@ -83,9 +83,9 @@ body {
       .col {
         position: relative;
       }
-      img {
-        opacity: 0.8;
-      }
+    //   img {
+        // opacity: 0.9;
+    //   }
       .bg-img-title {
         text-transform: uppercase;
         font-weight: 600;
@@ -109,6 +109,17 @@ body {
     background-color: #eeeeee;
     margin-top: 1rem;
     height: auto;
-    
+    .footerh4{
+        font-size: .8rem; 
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    .footerleft{
+        p{
+            font-size: .7rem; 
+        }
+       
+    }
   }
 }
